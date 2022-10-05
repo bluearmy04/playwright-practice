@@ -2,4 +2,4 @@
 
 #Language Used: Typescript
 #Framework used: Playwright
-#Other tools used: Reporting tools(Allure)
+#Other tools used: Reporting tools(Allure), Jenkins
