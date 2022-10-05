@@ -1,0 +1,17 @@
+{
+  "name": "playwrightautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "chromeHeadlessRunE2E": "npx playwright test --project=chromium C:\\Users\\cefalo\\PlaywrightAutomation\\tests\\ClientAppPO.spec.ts",
+    "APICreateOrder": "npx playwright test --headed --project=chromium tests\\WebAPIPart1.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.26.1",
+    "allure-playwright": "^2.0.0-beta.19"
+  }
+}
