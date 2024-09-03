@@ -1,4 +1,4 @@
-[
+export const userData = [
 {
     "email": "riyad.rafat@cefalo.com",
     "password": "Fcxiphoid04",

@@ -1,6 +1,7 @@
 import { test } from '@playwright/test';
 import {POManager} from '../PageObjects/POManager'
-const dataset = JSON.parse(JSON.stringify(require('../Utils/ClientAppPO.json')))
+import { userData } from '../Utils/ClientAppPO';
+const dataset = JSON.parse(JSON.stringify(userData))
 
 for(const data of dataset)
 {
