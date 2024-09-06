@@ -4,4 +4,4 @@ node_modules/
 /playwright/.cache/
 .gitignore
 /allure-report
-tests/
+.gitignore
