@@ -19,7 +19,7 @@ export class CheckoutPage
         this.btnPlaceOrder = page.locator('.action__submit');
     }
 
-    async fillInformation(email)
+    async fillInformation(email: string)
     {
         await this.inputCountry.type('ban',{delay:100});
         //const dropdown = page.locator('.ta-results');
